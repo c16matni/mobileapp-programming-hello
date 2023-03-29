@@ -2,8 +2,9 @@
 # Rapport
 
 **Skriv din rapport här!**
-Ändrat "<string name="app_name">Professor Sol</string>" från "Hello" till "Professor sol"
-_Du kan ta bort all text som finns sedan tidigare_.
+
+Ändrat från "Hello" till "Professor sol"
+
 
 ## Följande grundsyn gäller dugga-svar:
 
@@ -21,19 +22,7 @@ Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad d�
     <string name="app_name">Professor Sol</string>
 </resources>
 
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
