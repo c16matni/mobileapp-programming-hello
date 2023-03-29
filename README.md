@@ -2,7 +2,7 @@
 # Rapport
 
 **Skriv din rapport här!**
-
+Ändrat "<string name="app_name">Professor Sol</string>" från "Hello" till "Professor sol"
 _Du kan ta bort all text som finns sedan tidigare_.
 
 ## Följande grundsyn gäller dugga-svar:
@@ -16,6 +16,11 @@ _Du kan ta bort all text som finns sedan tidigare_.
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
 ```
+
+<resources>
+    <string name="app_name">Professor Sol</string>
+</resources>
+
 function errorCallback(error) {
     switch(error.code) {
         case error.PERMISSION_DENIED:
